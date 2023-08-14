@@ -1,0 +1,45 @@
+.Headar {
+    background: Gray;
+    width: 620px;
+    height: 45px;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.navbar {
+    background: blue;
+    width: 620px;
+    height: 45px;
+    text-align: center;
+    margin: auto;
+}
+
+th {
+    width: 300;
+}
+
+th,
+a {
+    font-size: 20px;
+    text-decoration: none
+}
+
+.main {
+    background: lightblue;
+    width: 620px;
+
+    text-align: center;
+    margin: auto;
+
+}
+
+.Footer {
+    background: gray;
+    width: 620px;
+    height: 33px;
+    text-align: center;
+    margin: auto;
+    color: yellow;
+    font-size: 20px;
+}

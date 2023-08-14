@@ -1,0 +1,17 @@
+{
+  "name": "php-pack",
+  "displayName": ".php Extension Pack",
+  "description": "PHP Debuger, Php Intellisense, Php Server",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "bmewburn.vscode-intelephense-client",
+    "brapifra.phpserver",
+    "xdebug.php-debug"
+  ]
+}

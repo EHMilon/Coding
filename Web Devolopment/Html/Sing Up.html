@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 5px;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="styles/navigation.css">
+    <nav>
+        <ul>
+            <li class="dropdown"><a href="index.html">Home</a></li>
+            <li><a href="Sing Up.html">Sing Up</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="About.html">About</a></li>
+        </ul>
+    </nav>
+    <div class="singup">
+        <h1 style="color: blue;">Sing Up</h1>
+        <form action="">
+            <label for="Fname">First Name</label>
+            <input type="text" placeholder="First Name"><br>
+            <label for="Lname">Last Name</label>
+            <input type="text"placeholder="Last Name"><br><br>
+            <label for="">Email</label>
+            <input type="email"placeholder="Your Email Addresses"><br>
+            <label for="">Password</label>
+            <input type="password"placeholder="Password">
+            <label for="">Mobile Number</label>
+            <input type="number" placeholder="Your Mobile Number"><br><br>
+            <!--Input types: "checkbox","color","date","datetime-local","email","file","hidden","image","month","number","password","radio","range","reset","search","submit","tel","text","time","url","week"-->
+            
+            <label for="">Select Your Country</label>
+            <select name="Select your country" id="Select Your Country">
+                <option value="">India</option>
+                <option value="">Bangladesh</option>
+                <option value="">Pakistan</option>
+            </select><br>
+            
+            <fieldset>
+                <legend>Your Interest</legend>
+                <label for="web-dev">
+                    <input type="radio" name="interest" id="web-dev">Web Development
+                </label>
+                <label for="dig-mark">
+                    <input type="radio" name="interest" id="dig-mark">Digital Marketing
+                </label>
+                <label for="app-dev">
+                    <input type="radio" name="interest" id="app-dev">App Development
+                </label>
+                <label for="Gra-design">
+                    <input type="radio" name="interest" id="Gra-design">Graphics Design
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Sub Catagories</legend>
+                <label for="html/css">
+                    <input type="checkbox" name="Sub Catagories" id="html/css">
+                    html/css
+                </label>
+                <label for="Javascrift">
+                    <input type="checkbox" name="Sub Catagories" id="Javascrift">
+                    JavaScrift
+                </label>
+                <label for="">
+                    <input type="checkbox" name="Sub Catagories" id="SEO">
+                    SEO
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Description</legend>
+                <textarea name="Write something as you like" id="" cols="50" rows="5"placeholder="Write something about you"></textarea><br><br>
+            </fieldset>
+            <button type="submit">Submit</button>
+            <input type="reset" value="Reset">
+
+        </form><br>
+            
+        
+    </div>  
+     
+</body>
+</html>
