@@ -1,9 +1,8 @@
-//program name
+//Greatest Common Divisor
 #include <stdio.h>
 
 int main()
 {
-    // program name
     int a, b, rem;
     printf("Enter two numbers: ");
     scanf("%d%d", &a, &b);

@@ -1,2 +1,0 @@
-This is a C program.
-This is a text file.

@@ -1,5 +1,4 @@
 * {
-    margin: 0;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -9,6 +8,12 @@
     background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-size:100%;
+}
+image{
+    width: 100%;
+    height: fit-content;
+
 }
 
 nav {
@@ -45,13 +50,13 @@ nav ul {
 .btn {
     color: white;
     width: 150px;
-    height: 64px;
+    height: 75px;
     font-size: 20px;
     font-weight: 700px;
     background: #fd6e0a;
     border: 0;
     border-radius: 5px;
-    padding: 18px 35px;
+    padding: 15px 30px;
 }
 
 .hi {
@@ -90,8 +95,10 @@ nav ul {
 }
 main{
     max-width: 1140px;
-    margin: 0 auto;
+    margin-left: 200px;
+    margin-right: 200px;
 }
+/* about section */
 .about{
     margin-top: 130px;
     background: #FFF8F3;
@@ -101,6 +108,9 @@ main{
 }
 .section-title{
     text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700px;
     margin-bottom: 30px;
 }
 .section-disc{
@@ -136,16 +146,55 @@ main{
 /* resume content */
 .resume-content{
     display: flex;
+    gap: 24px;
+}
+.resume-title{
+    color: var(--dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
 }
 .resume-item{
     
 }
 .resume .title{
-    
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 .resume .sub-title{
     color: #757575;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 .resume .description{
     color: #757575;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-button{
+    margin-top:50p;
+    text-align: center;
+}
+/* Contact Section */
+.contact{
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 230px 150px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input, textarea{
+    margin-bottom: 24px;
+    border: 0;
+    
+}
+input{
+    height: 50px;
 }
