@@ -1,0 +1,159 @@
+header{
+  text-align: center;
+  position: relative;
+}
+header img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  position: relative;
+  display: inline-block;
+}
+
+header img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.header-text{
+  position: absolute;
+  top: 35%;
+}
+header h1{
+  color: white;
+  font-size: 50px;
+  margin: 20px 200px;
+}
+header p{
+  color: aliceblue;
+  margin: 20px 350px;
+}
+.donate-btn{
+  width: 100px;
+  height: 35px;
+  border: none;
+  background: #fd6e0a;
+  border-radius: 5px;
+  color: white;
+}
+/* Donate Today Section */
+.donate-today{
+  text-align: center;
+  margin: 90px 200px;
+}
+h2{
+  font-size: 30px;
+}
+p{
+  color: #969696;
+}
+.tk-btn{
+  width: 60px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+}
+.tk-btn:hover{
+  color: #fd6e0a;
+}
+.tk-btn:focus{
+  background-color: rgba(255, 47, 0, 0.174);
+  color: #ff4d00;
+  border: 1px;
+  border-radius: 5px;
+}
+.other{
+  color: #cdcccc;
+}
+/* Donate Plan Section */
+.donate-plan{
+  text-align: center;
+  margin: 50px 200px;
+}
+.plan-box{
+  display: flex;
+  margin: 0px 100px;
+}
+.food{
+  background-color: rgba(55, 172, 255, 0.084);
+  padding: 40px 20px;
+  margin-right: 10px;
+}
+.shelter{
+  background-color: rgba(251, 118, 118, 0.139) ;
+  padding: 40px 20px;
+  margin-right: 10px;
+}
+.education{
+  background-color: rgba(255, 225, 0, 0.116);
+  padding: 40px 20px;
+}
+/* Contribute section */
+.contribute{
+  margin: 50px 100px;
+}
+.contribute-1{
+  display: flex;
+  margin-bottom: 50px;
+}
+.contribute1-text{
+  width: 700px;
+  padding-right: 30px;
+}
+.contribute1-img{
+  width: 300px;
+  height: 200px;
+}
+.contribute-2{
+  display: flex;
+}
+.contribute2-img{
+  width: 300px;
+  height: 200px;
+  padding-right: 30px;
+}
+.contribute-btn{
+  width: 130px;
+  height: 35px;
+  border: none;
+  background: #fd6e0a;
+  border-radius: 5px;
+  color: white
+}
+/* Get update section */
+.update{
+  text-align: center;
+  margin: 50px 200px;
+}
+
+.subscribe{
+  display: inline-flex;
+  background-color: rgba(253, 232, 0, 0.084);
+  padding: 50px 100px;
+}
+.subscribe-btn{
+  width: 100px;
+  height: 35px;
+  border: none;
+  background: #fd6e0a;
+  color: white
+}
+.input{
+  width: 200px;
+  height: 33px;
+  background-color: #67575741;
+  border: none;
+}
+/* Footer Section */
+footer{
+  color: aliceblue;
+  height: 100px;
+  background: rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 15px;
+}
