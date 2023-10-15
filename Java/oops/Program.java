@@ -14,7 +14,9 @@ class Account {
         this.password = pass;
     }
 }
-
+public class Account {
+    public s
+}
 public class Program {
     public static void main(String[] args) {
         Account a = new Account();

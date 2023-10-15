@@ -1,5 +1,8 @@
 {
-  "cSpell.words": [
-    "btn"
-  ]
+	"errorLens.statusBarColorsEnabled": true,
+	"errorLens.statusBarCommand": "goToProblem",
+	"errorLens.statusBarIconsEnabled": true,
+	"errorLens.statusBarIconsPriority": -9,
+	"errorLens.statusBarMessageEnabled": true,
+	"errorLens.followCursor": "allLines"
 }
