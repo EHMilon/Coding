@@ -4,5 +4,8 @@
 	"errorLens.statusBarIconsEnabled": true,
 	"errorLens.statusBarIconsPriority": -9,
 	"errorLens.statusBarMessageEnabled": true,
-	"errorLens.followCursor": "allLines"
+	"errorLens.followCursor": "allLines",
+	"cSpell.enableFiletypes": [
+		"!json"
+	]
 }
