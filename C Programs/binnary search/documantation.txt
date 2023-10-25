@@ -1,0 +1,56 @@
+binnary search C eassy program with explaination
+ChatGPT
+Binary search is a computationally effective search algorithm that is used to search for an element in a sorted array or list. It operates by dividing the array or list in half, and then determining whether the element being searched is in the left or right half. This process of dividing in half is repeated until the element is found or it is determined that the element is not present.
+
+Below is a sample C program for implementing binary search.
+
+Copy
+Insert
+New
+#include <stdio.h>
+
+//function to perform binary search
+int binary_search(int arr[], int n, int x)
+{
+    //initialize search indexes
+    int l = 0;
+    int r = n-1;
+    
+    while (l <= r) {
+        int m = l + (r-l)/2; 
+        //check if x is present at middle
+        if (arr[m] == x) 
+            return m;  
+        //if x is greater, ignore left half  
+        else if (arr[m] < x) 
+            l = m + 1; 
+        //if x is smaller, ignore right half 
+        else
+            r = m - 1; 
+    } 
+    //if element is not present in array
+    return -1; 
+} 
+
+int main() 
+{ 
+    //initialize test array
+    int arr[] = {2, 5, 7, 13, 16, 18, 21}; 
+    
+    int n = sizeof(arr) / sizeof(arr[0]); 
+    int x = 16; //element to be searched
+    
+    int result = binary_search(arr, n, x); 
+    if(result == -1)
+        printf("Element is not present in array.");
+    else
+        printf("Element is present at index %d.",result);
+    return 0;
+} 
+The above program first declares an array arr of integers containing some elements arranged in ascending order. Then the binary_search() function is declared which takes three arguments - the array to search in, the size of the array, and the element to search for.
+
+Within the binary_search() function, two variables l (for left index) and r (for right index) are initialized. The while loop runs until the left index is less than or equal to the right index. Within each iteration of the loop, the middle element is calculated (m) and compared with the required element x. If the element is present at index m, it is returned as output. Otherwise, if the element is greater than element at index m, it will continue searching in the right half of the array. Similarly, if the element is smaller than element at index m, it will continue searching in the left half of the array.
+
+In the main() function, the array length and element to search for are defined. The binary_search() function is called and the value returned by this function is assigned to an integer variable result. If the result equals -1, it means the element is not present in the array. Otherwise it will print the index at which the element is located within the array.
+
+This program shows how binary search can be implemented using C programming language.

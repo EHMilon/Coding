@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="CSS/table.css">
+</head>
+<body>
+    <table style="width:100% ;">
+        <caption>3rd Semester Result sheet</caption>
+        <colgroup>
+            <col span="2" style="background-color: #D6EEEE">
+            <col span="2" style="background-color: pink">
+            <!--<col span="3">
+                <col span="2" style="background-color: pink">
+            If you want to style columns in the middle of a table, insert a "empty" <col> element (with no styles) for the columns before:-->
+          </colgroup>
+        <tr>
+            <th style="width:10% ;"> Serial NO.</th>
+            <th colspan="2">Name</th>
+            <th>CGPA</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>MD Rakibul Hassan</td>
+            <td></td>
+            <td>4.00</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Nurjahan Nuri</td>
+            <td rowspan="2"></td>
+            <td>4.00</td>
+        </tr>
+        <tr style="height: 100px; ;">
+            <td>3</td>
+            <td id="t3">Ehsanul Haque Milon</td>
+            
+            <td>4.00</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>MD My Zihad</td>
+            <td></td>
+            <td>4.00</td>
+        </tr>
+    </table>
+</body>
+</html>

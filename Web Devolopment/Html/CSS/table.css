@@ -1,0 +1,62 @@
+table, th, td {
+    border: 1px solid black;
+    /* it this solid section we can use 
+    'dotted','dashed',solid','double','groove','ridge','inset','outset','none',hidden'*/
+    border-color: brown;    
+    padding: 15px;
+    /*border-collapse: collapse;*/
+    border-spacing: 15px;
+    /*If the table has collapsed borders, border-spacing has no effect.*/
+    text-align: center;
+    /*background-color: rgb(115, 91, 68);*/
+    border-radius: 10px;    
+}
+/*th,td{
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}*/
+tr:nth-child(odd){
+    /*Note: If you use (odd) instead of (even), the styling will occur on row 1,3,5 etc. instead of 2,4,6 etc.*/
+    background-color: rgb(180, 181, 182);
+    text-align: left;
+}
+
+tr:hover{
+    background-color: rgb(125, 125, 224);
+}
+th{
+    /*:nth-child(odd) it can be use in "th" tag for Vartical Zebra Stripes*/
+    background-color: rgb(87, 84, 84);
+}
+td#t3{
+    background-color: rgb(231, 146, 61);
+}
+
+    /*a:link - a normal, unvisited link*/
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+/*a:visited - a link the user has visited*/
+a:link, a:visited {
+    color: blueviolet;
+    background-color: rgb(94, 214, 238);
+    padding: 1px, 1px;
+    text-decoration: none;
+}
+/*a:hover - a link when the user mouses over it*/
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+/*a:active - a link the moment it is clicked*/
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
