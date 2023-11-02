@@ -8,6 +8,7 @@ int main()
     scanf("%d%d", &a, &b);
     while (b != 0)
     {
+
         rem = a % b;
         a = b;
         b = rem;
